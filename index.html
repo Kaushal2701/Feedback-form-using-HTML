@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback form</title>
+        <style>
+            h1
+            {
+                padding-left: 650px;
+            }
+            form
+            {
+                padding: 5px 100px 5px 10px ;
+                border: 5px solid red; 
+                margin: 0px 100px 0px 100px; 
+                background-image: url('wallpaper.jpg');
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Feedback Form</h1>
+        <form>
+            Full Name : <input type="text" name="Name" size="50px"> <br><br>
+            Phone number : <input type="number" name="Number"><br><br>
+            E-mail : <input type="email" name="E-mail" size="100px"> <br><br>
+            Gender : <br><input type="radio" name="Gender" value="Male" checked>Male<br>
+            <input type="radio" name="Gender" value="Female">Female<br>
+            <input type="radio" name="Gender" value="Others">Others<br><br> 
+            Date : <input type="date" name="Date"><br><br>
+            Feedback Rating : <select name="Feedback Rating">
+                <option value="Very Good">Very Good</option>
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>
+                <option value="Worst">Worst</option>
+            </select><br><br>
+            <input type="checkbox" name="Hobbies 1" value="Outdoor Games">I like to play outdoor games.<br>
+            <input type="checkbox" name="Hobbies 2" value="Books">I like to read books.<br>
+            <input type="checkbox" name="Hobbies 3" value="Hiking">I like hiking.<br>
+            <input type="checkbox" name="Hobbies 4" value="Driving">I like to go to long drive.<br><br>
+            Feedback : <br>
+            <textarea rows="5" cols="100" name="Feedback"></textarea><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
